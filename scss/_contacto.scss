@@ -1,0 +1,80 @@
+.contacto-main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+    span {
+        text-decoration: 2px underline;
+    }
+    
+    .redes {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        .instagram {
+            max-height: 85px;
+            border: 2px solid $color-quaternary;
+            padding: 10px 94px 15px;
+            background-color: $color-quinary;
+            margin-bottom: 15px;
+        }
+        
+        .whatsapp {
+            max-height: 85px;
+            border: 2px solid $color-quaternary;
+            padding: 10px 94px 15px;
+            background-color: $color-quinary;
+        }
+
+        .color-href {
+            display: flex;
+            justify-content: center;
+            color: $color-secondary;
+        }
+    }
+    
+    .contactar {
+        background-color: $color-quinary;
+        border: 2px solid $color-quaternary;
+        padding: 10px 37px;
+        margin-top: 10px;
+
+        
+        .ingreso{
+            display: flex;
+            flex-direction: column;
+            justify-content: start;
+            align-items: center;
+
+            .titulocontacto {
+                text-decoration: underline;
+            }
+
+            .contacto1 {
+                display: contents;
+                margin: 10px;
+                padding: 0px 0px;
+            }
+            
+            .contacto2 {
+                display: contents;
+                margin: 10px;
+                padding: 0px 0px;
+            }
+            
+            .contacto3 {
+                display: contents;
+                margin: 10px;
+            }
+
+            .textarea-height {
+                height: 195px;
+            }
+        }
+        
+        .contacto {
+            margin: 10px;
+        }  
+    }
+}

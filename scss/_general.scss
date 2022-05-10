@@ -1,0 +1,69 @@
+html {
+    background-color: $color-primary;
+}
+
+body {
+    margin: 0px;
+    background-color: $color-primary;
+
+    header {
+        background-color: $color-primary;
+    }
+
+    main {
+        background-color: $color-primary;
+    }
+
+    h1 {
+        font-family: 'Lobster', cursive;
+        font-family: 'Water Brush', cursive;
+    
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0px;
+        padding: 10px 0px;
+    }
+
+    .navbar {
+        display: grid;
+        justify-content: flex-end;
+        border-top: solid 1px $color-secondary;
+        border-bottom: solid 1px $color-secondary;
+        padding: 0px;
+    }
+    
+    li:hover {
+        padding: 0px 5px;
+        background-color: $color-tertiary;
+    }
+    
+    .nav-item:hover {
+        color: $color-quaternary;
+        transition: all 1.5s;
+    }
+    
+    footer {
+        background-color: $color-primary;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 10px;
+    }
+    
+    strong {
+        font-size: x-small;
+    }
+    
+    .color-footer {
+        color: $color-secondary;
+    }
+    
+    .grilla {
+        display: grid;
+        grid-template-areas:"header"
+        "nav"
+        "main"
+        "footer";
+    }
+}

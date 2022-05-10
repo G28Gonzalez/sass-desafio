@@ -1,0 +1,39 @@
+.reserva {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .semana {
+        padding-top: 5px;
+    }
+
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        grid-template-rows: repeat(6, 1fr);
+        column-gap: 2rem;
+        row-gap: .2rem;
+        border: 1px solid $color-quaternary;
+        justify-items: center;
+        font-size: 20px;
+        margin: 2px;
+        padding: 5px;
+        background-color: $color-quinary;
+    }
+
+    .diseno-img{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        list-style-type: none;
+        border: 1px solid $color-quaternary;
+        padding: 15px;
+        background-color: $color-quinary;
+    }
+
+    .enviar{
+        margin: 10px;
+    }
+}

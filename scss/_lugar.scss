@@ -1,0 +1,51 @@
+.completo-main {
+    display: flex;
+    flex-direction: row;
+
+    .lugar-main {
+        display: flex;
+        flex-direction: column;
+
+        .simbolo-ubi{
+            display: flex;
+            padding-top: 10px;
+        }
+        
+        .ubi {
+            text-decoration: underline;
+        }
+    }
+
+    .lugar-img { 
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+
+        .img1l {
+            height: 200px;
+            width: auto;
+            margin: 4px;
+        }
+        
+        .img2l {
+            height: 200px;
+            width: auto;
+            margin: 3px;
+        }
+        
+        .img3l {
+            height: 200px;
+            width: auto;
+            margin: 3px;
+        }
+        
+        .img4l {
+            height: 200px;
+            width: auto;
+            margin: 4px;
+        }
+    }
+}
+
+
+
