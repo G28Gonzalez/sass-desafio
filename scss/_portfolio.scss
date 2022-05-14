@@ -19,5 +19,5 @@
 }
 
 .carousel-control-next {
-    margin-top: 20px;
+    @extend .carousel-control-prev;
 }

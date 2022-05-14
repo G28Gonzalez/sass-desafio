@@ -4,6 +4,35 @@
     justify-content: center;
     align-items: center;
 
+    .form-reserva {
+        display: contents;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .linea {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .contacto-reserva {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        
+        .contacto-reserva1 {
+            display: flex;
+            padding: 5px;
+        }
+    
+        .contacto-reserva2 {
+            @extend .contacto-reserva1
+        }
+    }
+
     .semana {
         padding-top: 5px;
     }
@@ -31,6 +60,12 @@
         border: 1px solid $color-quaternary;
         padding: 15px;
         background-color: $color-quinary;
+        max-width: max-content;
+
+        .titulo-img {
+            font-size: medium;
+            font-weight: bold;
+        }
     }
 
     .enviar{

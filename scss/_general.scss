@@ -4,14 +4,14 @@ html {
 
 body {
     margin: 0px;
-    background-color: $color-primary;
+    @extend html;
 
     header {
-        background-color: $color-primary;
+        @extend html;
     }
 
     main {
-        background-color: $color-primary;
+        @extend html;
     }
 
     h1 {
@@ -44,7 +44,7 @@ body {
     }
     
     footer {
-        background-color: $color-primary;
+        @extend html;
         display: flex;
         justify-content: center;
         align-items: center;

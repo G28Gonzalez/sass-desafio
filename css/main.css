@@ -1,13 +1,8 @@
-html {
+html, body, body header, body main, body footer {
   background-color: #faaeba; }
 
 body {
-  margin: 0px;
-  background-color: #faaeba; }
-  body header {
-    background-color: #faaeba; }
-  body main {
-    background-color: #faaeba; }
+  margin: 0px; }
   body h1 {
     font-family: 'Lobster', cursive;
     font-family: 'Water Brush', cursive;
@@ -29,7 +24,6 @@ body {
     color: #ffffff;
     transition: all 1.5s; }
   body footer {
-    background-color: #faaeba;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -51,6 +45,23 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center; }
+  .reserva .form-reserva {
+    display: contents;
+    justify-content: center;
+    align-items: center; }
+  .reserva .linea {
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+  .reserva .contacto-reserva {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap; }
+    .reserva .contacto-reserva .contacto-reserva1, .reserva .contacto-reserva .contacto-reserva2 {
+      display: flex;
+      padding: 5px; }
   .reserva .semana {
     padding-top: 5px; }
   .reserva .grid {
@@ -73,7 +84,11 @@ body {
     list-style-type: none;
     border: 1px solid #ffffff;
     padding: 15px;
-    background-color: #bc8f8f; }
+    background-color: #bc8f8f;
+    max-width: max-content; }
+    .reserva .diseno-img .titulo-img {
+      font-size: medium;
+      font-weight: bold; }
   .reserva .enviar {
     margin: 10px; }
 
@@ -88,10 +103,7 @@ body {
     width: 100%;
     max-height: 17rem; }
 
-.carousel-control-prev {
-  margin-top: 20px; }
-
-.carousel-control-next {
+.carousel-control-prev, .carousel-control-next {
   margin-top: 20px; }
 
 .completo-main {
@@ -104,27 +116,18 @@ body {
       display: flex;
       padding-top: 10px; }
     .completo-main .lugar-main .ubi {
-      text-decoration: underline; }
+      text-decoration: underline;
+      padding-top: 10px; }
   .completo-main .lugar-img {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap; }
-    .completo-main .lugar-img .img1l {
+    .completo-main .lugar-img .img1l, .completo-main .lugar-img .img2l, .completo-main .lugar-img .img3l, .completo-main .lugar-img .img4l {
       height: 200px;
       width: auto;
       margin: 4px; }
-    .completo-main .lugar-img .img2l {
-      height: 200px;
-      width: auto;
+    .completo-main .lugar-img .img2l, .completo-main .lugar-img .img3l {
       margin: 3px; }
-    .completo-main .lugar-img .img3l {
-      height: 200px;
-      width: auto;
-      margin: 3px; }
-    .completo-main .lugar-img .img4l {
-      height: 200px;
-      width: auto;
-      margin: 4px; }
 
 .contacto-main {
   display: flex;
@@ -137,12 +140,8 @@ body {
     flex-direction: column;
     justify-content: center; }
     .contacto-main .redes .instagram {
-      max-height: 85px;
-      border: 2px solid #ffffff;
-      padding: 10px 94px 15px;
-      background-color: #bc8f8f;
       margin-bottom: 15px; }
-    .contacto-main .redes .whatsapp {
+    .contacto-main .redes .whatsapp, .contacto-main .redes .instagram {
       max-height: 85px;
       border: 2px solid #ffffff;
       padding: 10px 94px 15px;
@@ -163,11 +162,7 @@ body {
       align-items: center; }
       .contacto-main .contactar .ingreso .titulocontacto {
         text-decoration: underline; }
-      .contacto-main .contactar .ingreso .contacto1 {
-        display: contents;
-        margin: 10px;
-        padding: 0px 0px; }
-      .contacto-main .contactar .ingreso .contacto2 {
+      .contacto-main .contactar .ingreso .contacto1, .contacto-main .contactar .ingreso .contacto2 {
         display: contents;
         margin: 10px;
         padding: 0px 0px; }
@@ -189,9 +184,9 @@ body {
   .d-block {
     max-height: 11rem; }
   .grid {
-    column-gap: 0.1rem;
-    row-gap: 0.1rem;
-    font-size: 14px;
+    column-gap: 0rem;
+    row-gap: 0rem;
+    font-size: small;
     margin: 5px;
     padding: 5px; }
   .semana {
@@ -250,8 +245,8 @@ body {
   .d-block {
     max-height: 12rem; }
   .grid {
-    column-gap: 0.5rem;
-    row-gap: 0.2rem; }
+    column-gap: 0.2rem;
+    row-gap: 0.1rem; }
   .mapa {
     width: 490px;
     height: 175px; } }
@@ -292,5 +287,5 @@ body {
     justify-content: space-around; }
   .redes {
     display: block; }
-  .whatsapp {
+  .whatsapp, .contacto-main .redes .instagram {
     margin-top: 20px; } }
