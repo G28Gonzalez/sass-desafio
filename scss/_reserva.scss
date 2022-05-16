@@ -1,25 +1,19 @@
 .reserva {
-    display: flex;
+    @include flex-juscenter-alicenter;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
 
     .form-reserva {
         display: contents;
         justify-content: center;
         align-items: center;
-    }
 
-    .linea {
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        .linea {
+            @include flex-juscenter-alicenter;
+        }
     }
 
     .contacto-reserva {
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        @include flex-juscenter-alicenter;
         flex-direction: row;
         flex-wrap: wrap;
         
@@ -52,10 +46,8 @@
     }
 
     .diseno-img{
-        display: flex;
+        @include flex-juscenter-alicenter;
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
         list-style-type: none;
         border: 1px solid $color-quaternary;
         padding: 15px;

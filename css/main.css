@@ -42,17 +42,17 @@ body {
 
 .reserva {
   display: flex;
-  flex-direction: column;
   justify-content: center;
-  align-items: center; }
+  align-items: center;
+  flex-direction: column; }
   .reserva .form-reserva {
     display: contents;
     justify-content: center;
     align-items: center; }
-  .reserva .linea {
-    display: flex;
-    justify-content: center;
-    align-items: center; }
+    .reserva .form-reserva .linea {
+      display: flex;
+      justify-content: center;
+      align-items: center; }
   .reserva .contacto-reserva {
     display: flex;
     justify-content: center;
@@ -78,9 +78,9 @@ body {
     background-color: #bc8f8f; }
   .reserva .diseno-img {
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     list-style-type: none;
     border: 1px solid #ffffff;
     padding: 15px;

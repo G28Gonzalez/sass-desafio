@@ -3,3 +3,17 @@ $color-secondary: #000000;
 $color-tertiary: #2521fc98;
 $color-quaternary: #ffffff;
 $color-quinary: #bc8f8f;
+
+@mixin flex-juscenter-alicenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+$colors:(
+    "fondo": $color-primary,
+    "letras": $color-secondary,
+    "nav-fondo": $color-tertiary,
+    "bordes": $color-quaternary,
+    "fondo-items": $color-quinary,
+)
