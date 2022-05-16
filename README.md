@@ -5,3 +5,4 @@ Reserva//"aparte de las keywords se cambio el titulo a "Reserva - SKYNAILS""
 Portfolio//"aparte de las keywords se cambio el titulo a "Portfolio - SKYNAILS""
 Lugar//"aparte de las keywords se cambio el titulo a "Lugar - SKYNAILS""
 Contacto//"aparte de las keywords se cambio el titulo a "Contacto - SKYNAILS""
+Tambien se agregaron mixin y map en variables.scss que se utilizaron en los htmls
