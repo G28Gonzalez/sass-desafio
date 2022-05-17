@@ -183,53 +183,54 @@ body {
     width: 50%; }
   .d-block {
     max-height: 11rem; }
-  .grid {
+  .reserva .grid {
     column-gap: 0rem;
     row-gap: 0rem;
     font-size: small;
     margin: 5px;
     padding: 5px; }
-  .semana {
+  .reserva .semana {
     margin: 5px 0px; }
-  .diseno-img {
+  .reserva .diseno-img {
     margin-top: 10px;
-    padding: 5px; }
+    padding: 5px;
+    font-size: smaller; }
   .completo-main {
     flex-direction: column;
     justify-content: center;
     align-items: center; }
-  .lugar-main {
-    flex-direction: column;
-    justify-content: center;
-    align-items: center; }
-  .lugar-img {
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap; }
-  .mapa {
-    width: 290px;
-    height: 175px;
-    margin-top: 10px; }
-  .ubi {
-    font-size: medium; }
-  .lugar-img {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap; }
+    .completo-main .lugar-main {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center; }
+      .completo-main .lugar-main .ubi {
+        font-size: medium; }
+    .completo-main .lugar-img {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap; }
+    .completo-main .mapa {
+      width: 290px;
+      height: 175px;
+      margin-top: 10px; }
+    .completo-main .lugar-img {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap; }
   .contacto-main {
     flex-direction: column;
     justify-content: center;
     align-items: center; }
-  .contactar {
-    display: flex;
-    flex-direction: column;
-    justify-content: right;
-    align-items: flex-end; }
-  .redes {
-    padding-top: 5px; }
-  .contacto3 {
-    text-align: center; } }
+    .contacto-main .contactar {
+      display: flex;
+      flex-direction: column;
+      justify-content: right;
+      align-items: flex-end; }
+      .contacto-main .contactar .contacto3 {
+        text-align: center; }
+    .contacto-main .redes {
+      padding-top: 5px; } }
 
 @media screen and (min-width: 425px) {
   .mapa {
@@ -244,7 +245,7 @@ body {
     width: 25%; }
   .d-block {
     max-height: 12rem; }
-  .grid {
+  .reserva .grid {
     column-gap: 0.2rem;
     row-gap: 0.1rem; }
   .mapa {
@@ -260,32 +261,32 @@ body {
     width: 20%; }
   .d-block {
     max-height: 17rem; }
-  .grid {
+  .reserva .grid {
     column-gap: 0.8rem;
     row-gap: 0.3;
     font-size: 18px; }
-  .diseno-img {
+  .reserva .diseno-img {
     margin-top: 10px;
     padding: 5px 10px; }
   .completo-main {
     flex-direction: row; }
-  .lugar-main {
-    flex-direction: column; }
-  .lugar-img {
-    flex-direction: row;
-    flex-wrap: wrap; }
-  .mapa {
-    width: 550px;
-    height: 320px;
-    margin-left: 50px;
-    margin-right: 50px; }
-  .ubi {
-    font-size: x-large; }
+    .completo-main .lugar-main {
+      flex-direction: column; }
+      .completo-main .lugar-main .ubi {
+        font-size: x-large; }
+    .completo-main .lugar-img {
+      flex-direction: row;
+      flex-wrap: wrap; }
+    .completo-main .mapa {
+      width: 550px;
+      height: 320px;
+      margin-left: 50px;
+      margin-right: 50px; }
   .contacto-main {
     display: flex;
     flex-direction: row;
     justify-content: space-around; }
-  .redes {
-    display: block; }
-  .whatsapp, .contacto-main .redes .instagram {
-    margin-top: 20px; } }
+    .contacto-main .redes {
+      display: block; }
+      .contacto-main .redes .whatsapp, .contacto-main .redes .instagram {
+        margin-top: 20px; } }
