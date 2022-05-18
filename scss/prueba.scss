@@ -16,14 +16,20 @@
     }
 
     // Portfolio
-    .carousel-inner {
-        width: 50%;
+    .tipo-unas {
+        padding-left: 1rem;
     }
 
-    .d-block {
-        max-height: 11rem;
-    }
+    .carousel {
+        .carousel-inner {
+            width: 65%;
+        }
 
+        .d-block {
+            max-height: 12rem;
+        }
+    }
+    
     // Reserva
     .reserva {
         .grid {
@@ -113,6 +119,17 @@
         width: 360px;
         height: 185px;
     }
+
+    // Porfolio
+    .carousel {
+        .carousel-inner {
+            width: 35%;
+        }
+
+        .d-block {
+            max-height: 12rem;
+        }
+    }
 };
 
 // Tablet 768px
@@ -124,14 +141,20 @@
     }
 
     // Porfolio
-    .carousel-inner {
-        width: 25%;
+    .tipo-unas {
+        padding-left: 3rem;
     }
 
-    .d-block {
-        max-height: 12rem;
-    }
+    .carousel {
+        .carousel-inner {
+            width: 30%;
+        }
 
+        .d-block {
+            max-height: 12rem;
+        }
+    }
+    
     // Reserva
     .reserva {
         .grid {
@@ -157,14 +180,20 @@
     }
 
     // Portfolio
-    .carousel-inner {
-        width: 20%;
+    .tipo-unas {
+        padding-left: 5rem;
     }
 
-    .d-block {
-        max-height: 17rem;
-    }
+    .carousel {
+        .carousel-inner {
+            width: 20%;
+        }
 
+        .d-block {
+            max-height: 17rem;
+        }
+    }
+    
     // Reserva
     .reserva{
         .grid {

@@ -1,3 +1,15 @@
+.tipo-unas {
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 5rem;
+    padding-top: 1rem;
+
+    .strong-portfolio {
+        font-size: medium;
+        text-decoration: underline;
+    }
+}
+
 .carousel {
     display: flex;
     padding-top: 20px;

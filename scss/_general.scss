@@ -45,10 +45,11 @@ body {
     
     footer {
         @extend html;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        padding-top: 10px;
+        bottom: 0;
+        height: 30px;
+        position: absolute;
+        text-align: center;
+        width: 100%;
     }
     
     strong {

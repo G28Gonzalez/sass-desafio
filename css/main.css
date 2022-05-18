@@ -24,10 +24,11 @@ body {
     color: #ffffff;
     transition: all 1.5s; }
   body footer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-top: 10px; }
+    bottom: 0;
+    height: 30px;
+    position: absolute;
+    text-align: center;
+    width: 100%; }
   body strong {
     font-size: x-small; }
   body .color-footer {
@@ -91,6 +92,15 @@ body {
       font-weight: bold; }
   .reserva .enviar {
     margin: 10px; }
+
+.tipo-unas {
+  align-items: center;
+  justify-content: flex-start;
+  padding-left: 5rem;
+  padding-top: 1rem; }
+  .tipo-unas .strong-portfolio {
+    font-size: medium;
+    text-decoration: underline; }
 
 .carousel {
   display: flex;
@@ -179,10 +189,12 @@ body {
     width: 100%;
     height: auto;
     margin-top: 25px; }
-  .carousel-inner {
-    width: 50%; }
-  .d-block {
-    max-height: 11rem; }
+  .tipo-unas {
+    padding-left: 1rem; }
+  .carousel .carousel-inner {
+    width: 65%; }
+  .carousel .d-block {
+    max-height: 12rem; }
   .reserva .grid {
     column-gap: 0rem;
     row-gap: 0rem;
@@ -235,15 +247,21 @@ body {
 @media screen and (min-width: 425px) {
   .mapa {
     width: 360px;
-    height: 185px; } }
+    height: 185px; }
+  .carousel .carousel-inner {
+    width: 35%; }
+  .carousel .d-block {
+    max-height: 12rem; } }
 
 @media screen and (min-width: 768px) {
   .index-img {
     width: 100%;
     height: auto; }
-  .carousel-inner {
-    width: 25%; }
-  .d-block {
+  .tipo-unas {
+    padding-left: 3rem; }
+  .carousel .carousel-inner {
+    width: 30%; }
+  .carousel .d-block {
     max-height: 12rem; }
   .reserva .grid {
     column-gap: 0.2rem;
@@ -257,9 +275,11 @@ body {
     margin-top: 0px;
     width: 100%;
     height: auto; }
-  .carousel-inner {
+  .tipo-unas {
+    padding-left: 5rem; }
+  .carousel .carousel-inner {
     width: 20%; }
-  .d-block {
+  .carousel .d-block {
     max-height: 17rem; }
   .reserva .grid {
     column-gap: 0.8rem;
