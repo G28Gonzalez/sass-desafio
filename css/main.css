@@ -4,8 +4,9 @@ html, body, body header, body main, body footer {
 body {
   margin: 0px; }
   body h1 {
-    font-family: 'Lobster', cursive;
-    font-family: 'Water Brush', cursive;
+    font-family: "Lobster", "cursive";
+    font-family: "Water Brush", "cursive";
+    text-decoration: underline 1px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -17,6 +18,8 @@ body {
     border-top: solid 1px #000000;
     border-bottom: solid 1px #000000;
     padding: 0px; }
+    body .navbar .hamburguesa {
+      justify-content: end; }
   body li:hover {
     padding: 0px 5px;
     background-color: #2521fc98; }
@@ -26,7 +29,6 @@ body {
   body footer {
     bottom: 0;
     height: 30px;
-    position: absolute;
     text-align: center;
     width: 100%; }
   body strong {
@@ -37,9 +39,16 @@ body {
     display: grid;
     grid-template-areas: "header" "nav" "main" "footer"; }
 
-.index-img {
-  width: 100%;
-  height: auto; }
+.bienvenido {
+  font-family: "Spline Sans Mono", "monospace";
+  justify-content: center;
+  align-items: center;
+  text-align: center; }
+  .bienvenido .imagen-index {
+    height: 200px;
+    width: auto; }
+  .bienvenido .ultimotext {
+    padding: 0px 15px; }
 
 .reserva {
   display: flex;
@@ -63,8 +72,6 @@ body {
     .reserva .contacto-reserva .contacto-reserva1, .reserva .contacto-reserva .contacto-reserva2 {
       display: flex;
       padding: 5px; }
-  .reserva .semana {
-    padding-top: 5px; }
   .reserva .grid {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
@@ -151,11 +158,17 @@ body {
     justify-content: center; }
     .contacto-main .redes .instagram {
       margin-bottom: 15px; }
+      .contacto-main .redes .instagram .logo-instagram {
+        width: 15px;
+        height: 15px; }
     .contacto-main .redes .whatsapp, .contacto-main .redes .instagram {
       max-height: 85px;
       border: 2px solid #ffffff;
       padding: 10px 94px 15px;
       background-color: #bc8f8f; }
+      .contacto-main .redes .whatsapp .logo-whatsapp, .contacto-main .redes .instagram .logo-whatsapp {
+        width: 15px;
+        height: 15px; }
     .contacto-main .redes .color-href {
       display: flex;
       justify-content: center;

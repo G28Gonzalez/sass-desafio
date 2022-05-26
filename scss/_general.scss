@@ -15,8 +15,9 @@ body {
     }
 
     h1 {
-        font-family: 'Lobster', cursive;
-        font-family: 'Water Brush', cursive;
+        font-family: "Lobster", "cursive";
+        font-family: "Water Brush", "cursive";
+        text-decoration: underline 1px;
     
         display: flex;
         align-items: center;
@@ -31,6 +32,10 @@ body {
         border-top: solid 1px $color-secondary;
         border-bottom: solid 1px $color-secondary;
         padding: 0px;
+
+        .hamburguesa {
+            justify-content: end;
+        }
     }
     
     li:hover {
@@ -47,7 +52,6 @@ body {
         @extend html;
         bottom: 0;
         height: 30px;
-        position: absolute;
         text-align: center;
         width: 100%;
     }

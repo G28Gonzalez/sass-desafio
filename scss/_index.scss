@@ -1,4 +1,15 @@
-.index-img {
-    width: 100%;
-    height: auto;
+.bienvenido {
+    font-family: "Spline Sans Mono", "monospace";
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    .imagen-index {
+        height: 200px;
+        width: auto;
+    }
+
+    .ultimotext {
+        padding: 0px 15px;
+    }
 }

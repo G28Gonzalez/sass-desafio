@@ -15,6 +15,11 @@
         .instagram {
             @extend .whatsapp;
             margin-bottom: 15px;
+
+            .logo-instagram {
+                width: 15px;
+                height: 15px;
+            }
         }
         
         .whatsapp {
@@ -22,6 +27,11 @@
             border: 2px solid $color-quaternary;
             padding: 10px 94px 15px;
             background-color: $color-quinary;
+
+            .logo-whatsapp {
+                width: 15px;
+                height: 15px;
+            }
         }
 
         .color-href {
